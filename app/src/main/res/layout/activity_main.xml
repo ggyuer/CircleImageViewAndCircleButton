@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.administrator.myapplication.MainActivity">
+
+  <com.example.administrator.myview.DefindView
+      android:id="@+id/defind"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:textTitle="2307"
+      android:padding="10dp"
+      android:layout_centerInParent="true"
+      app:textColor="#ff0000"
+      app:textSize="30dp"
+      />
+  <Button
+      android:id="@+id/login"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@drawable/login_down_on_change"
+      android:text="@string/cButton"/>
+</RelativeLayout>
